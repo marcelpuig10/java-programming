@@ -4,7 +4,15 @@ public class Address {
     private String street, city, state, zipCode;
     private String country = "USA";
 
-    @Override
+
+
+    public Address(){
+        System.out.println("Address constructor");
+        street = "123 unknown st";
+        city = "unknown";
+        state = "unknown";
+        zipCode = "00000";
+    }
     public String toString() {
         return street + ", " + city + ", " + state + ", " + zipCode;
     }
