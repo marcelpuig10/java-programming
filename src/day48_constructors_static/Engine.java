@@ -3,6 +3,14 @@ package day48_constructors_static;
 public class Engine {
     private int cylinders;
 
+    public Engine(){
+
+    }
+
+    public Engine(int cylinders) {
+        this.cylinders = cylinders;
+    }
+
     @Override
     public String toString() {
         return "Engine{" +
