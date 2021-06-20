@@ -1,9 +1,12 @@
-package day55_abstraction;
+package day55_abstraction.exercise_example;
 
-public abstract class Lifting extends exercise{
+import day55_abstraction.exercise_example.exercise;
+
+public abstract class Lifting extends exercise {
     /**
      * i added abstract word on class and have no error because,
      * abstract class can have another abstract sub class does not need to override abstract method
      */
+    public abstract void endLift();
 
 }
